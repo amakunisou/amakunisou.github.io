@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html 
+	lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+<link rel="stylesheet" href="/css/layout.css">
+
+		
+		<title> 生な黄泉 -  Hexo</title>
+		<!-- <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" /> -->
+		<!-- <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> -->
+		
+<link rel="stylesheet" href="/lib/mdui/mdui.min.css">
+
+		
+<script src="/lib/mdui/mdui.min.js"></script>
+
+		<!-- lazyload -->
+		
+<script src="/lib/lazysizes.js"></script>
+
+		<!-- smooth-scrolling -->
+		
+<script src="/lib/smooth-scrolling.js"></script>
+
+		<!-- highlight -->
+		
+<link rel="stylesheet" href="/lib/highlight/atom-one-dark.min.css">
+
+		
+<script src="/lib/highlight/highlight.min.js"></script>
+
+		<!-- 预置 kiraicon -->
+		
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css">
+
+		
+		<link
+			rel="shortcut icon"
+			href="https://github.com/amakunisou/images/blob/main/IMG_0542.PNG?raw=true"
+			type="image/png"
+		/>
+		
+<link rel="stylesheet" href="/deps/css/APlayer.min.css">
+
+		
+		
+<script src="/deps/js/APlayer.min.js"></script>
+<script src="/deps/js/Meting.min.js"></script>
+
+	<meta name="generator" content="Hexo 8.1.1"></head>
+
+	<body>
+		<div
+			class="kira-background"
+			style="background-image: url('https://github.com/amakunisou/images/blob/main/underground.PNG?raw=true')"
+		></div>
+		<div class="kira-header">
+    <a
+        class="kira-drawer-button mdui-ripple"
+        title="导航栏"
+        onclick="document.querySelector('.kira-sidebar-modal').classList.add('show');document.querySelector('.kira-sidebar#sidebar').classList.add('show');"
+    >
+        <i class="kirafont icon-menu"></i>
+    </a>
+    <a href="/" title="Hexo">
+        <img
+			src="https://github.com/amakunisou/images/blob/main/IMG_0542.PNG?raw=true"
+			alt="John Doe"
+		/>
+    </a>
+</div>
+		<div class="kira-body">
+			<div class="kira-sidebar" id="sidebar">
+	<div class="kira-avatar mdui-ripple">
+		<a target="_blank" rel="noopener" href="https://github.com/amakunisou/images/blob/main/IMG_0542.PNG?raw=true" title="John Doe">
+			<img
+				src="https://github.com/amakunisou/images/blob/main/IMG_0542.PNG?raw=true"
+				alt="John Doe"
+			/>
+		</a>
+	</div>
+	<div class="kira-count">
+		<div><span>文章</span>3</div>
+		<div><span>标签</span>1</div>
+		<div><span>分类</span>0</div>
+	</div>
+	<div class="kira-list">
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/"
+			title="回到首页"
+		>
+			<i
+				class="kirafont
+					
+						icon-home
+					"
+			></i>
+			<div class="kira-list-item-content">
+				回到首页
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/archive.html"
+			title="文章归档"
+		>
+			<i
+				class="kirafont
+					
+						icon-container
+					"
+			></i>
+			<div class="kira-list-item-content">
+				文章归档
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/2026/03/05/%E5%85%B3%E4%BA%8E%E6%88%91/"
+			title="关于本人"
+		>
+			<i
+				class="kirafont
+					
+						icon-user
+					"
+			></i>
+			<div class="kira-list-item-content">
+				关于本人
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/friends.html"
+			title="我的朋友"
+		>
+			<i
+				class="kirafont
+					
+						icon-team
+					"
+			></i>
+			<div class="kira-list-item-content">
+				我的朋友
+			</div>
+		</a>
+		
+	</div>
+	<aside id="kira-sidebar">
+		
+			<div class="kira-widget-wrap">
+	<div class="kira-widget kira-social">
+		
+			<a
+				class="mdui-ripple"
+				href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2705105842&website=www.oicqzone.com"
+				target="_blank"
+				mdui-tooltip="{content: 'QQ'}"
+				style="color: rgb(49, 174, 255); background-color: rgba(49, 174, 255, .1);"
+			>
+				<i
+					class="kirafont
+					
+						icon-QQ
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://space.bilibili.com/93344281"
+				target="_blank"
+				mdui-tooltip="{content: '哔哩哔哩'}"
+				style="color: rgb(231, 106, 141); background-color: rgba(231, 106, 141, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-bilibili
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://github.com/amakunisou"
+				target="_blank"
+				mdui-tooltip="{content: 'GitHub'}"
+				style="color: rgb(25, 23, 23); background-color: rgba(25, 23, 23, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-github
+					"
+				></i>
+			</a>
+		
+	</div>
+</div>
+
+		
+			
+		
+			
+	<div class="kira-widget-wrap">
+		<div id="randomtagcloud" class="kira-widget tagcloud kira-rainbow">
+			<a href="/tags/%E6%96%87%E7%AB%A0/" style="font-size: 10px;">文章</a>
+		</div>
+		
+	</div>
+
+
+		
+			
+	<div class="kira-widget-wrap">
+		<h3 class="kira-widget-title">
+			Archive
+		</h3>
+		<div class="kira-widget">
+			<ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2026/">2026</a><span class="archive-list-count">3</span></li></ul>
+		</div>
+	</div>
+
+
+		
+	</aside>
+	<div class="kira-copyright">
+		&copy; 2026
+		<a href="/">John Doe</a>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> &
+		<a href="https://github.com/ch1ny/kira-hexo/" target="_blank">Kira-Hexo</a>
+		<br />
+		
+		巨人の肩から見下ろして
+	</div>
+</div>
+<div
+	class="kira-sidebar-modal"
+	id="sidebar-modal"
+	onclick="(function(self) {
+		self.classList.remove('show');
+		document.querySelector('.kira-sidebar.show#sidebar').classList.remove('show');
+	})(this)"
+></div>
+			<div class="kira-content">
+				<div id="kira-top-header"></div>
+				<div class="kira-main-content">
+					
+<link rel="stylesheet" href="/css/kira-image.css">
+
+
+<script src="/js/kira-image.js"></script>
+
+<div class="kira-image">
+    <div class="kira-image-modal">
+        <div class="kira-image-header">
+            <div class="kira-image-counter"></div>
+            <div class="kira-image-title"></div>
+            <div class="kira-image-operation">
+                <div class="kira-image-operation-button" id="kira-image-operation-button-zoom">
+                    <i class="kirafont icon-zoom-in"></i>
+                </div>
+                <div class="kira-image-operation-button" id="kira-image-operation-button-close">
+                    <i class="kirafont icon-close"></i>
+                </div>
+            </div>
+        </div>
+        <div class="kira-image-container">
+            <div class="kira-image-prev-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-left"></i>
+                </div>
+            </div>
+            <div class="kira-image-list">
+                <div class="kira-image-prev">
+                    <img />
+                </div>
+                <div class="kira-image-now">
+                    <img />
+                </div>
+                <div class="kira-image-next">
+                    <img />
+                </div>
+            </div>
+            <div class="kira-image-next-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	
+<link rel="stylesheet" href="/css/kira-code-copy.css">
+
+	
+<script src="/js/kira-code-copy.js"></script>
+
+
+<div class="kira-post">
+	<article>
+		
+		<div
+			class="kira-post-cover"
+			style="padding-bottom: '56.85106382978723%'"
+		>
+			<img
+				data-src="https://github.com/amakunisou/images/blob/main/underground.PNG?raw=true"
+				data-sizes="auto"
+				alt="生な黄泉"
+				class="lazyload kira-post-cover-image disabled-kira-image"
+			/>
+			<h1>生な黄泉</h1>
+		</div>
+		
+		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
+			<a><i class="kirafont icon-calendar-fill"></i>2026年03月05日</a>
+			<a><i class="kirafont icon-edit-fill"></i>4.8k 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 19 分钟</a>
+		</div>
+		<html><head></head><body><blockquote>
+<p>依旧补档，相关文章应该会直接在这里更新</p>
+</blockquote>
+<h2><span id="%E6%B0%B4%E6%97%8F%E7%AE%B1">水族箱</span></h2><p>「你的舅舅打电话过来、说是一直不回家呢。」</p>
+<p>出租停在了半路。伸手拢过裙子、背包、挪动、鞠躬、道谢、关门。</p>
+<p>「放学后都去了哪里？大家都很担心你啊。」</p>
+<p>被放出来时已经错过了校车，好在身上还有零钱。不过为了节省一点让他停在了街道前。</p>
+<p>到了早春时节天黑得还是很快，抹布色的云层沉沉地压了下来，把风一起挤向街口。我朝归家的邻居打着招呼，一边抓紧提包加快了脚步。就如体感预兆的那般，头顶和鼻尖传来了毛茸茸的凉意。</p>
+<p>「去了同学家？是哪一位？」</p>
+<p>脑中的班主任还在不厌其烦地说着。句子因为愈烈的雨声变得像胶片的卡顿一样。</p>
+<p>「老师…明……、事故…去…伤心…但……」</p>
+<p>当时是怎么让她和舅舅安心下来的？虽然是不久前的事，但记忆已经比雨幕还模糊了。想必也是不重要的内容，随着它去吧。</p>
+<p>「——————」</p>
+<p>……雨越下越大了，原来是初春的暴雨啊。不应该省那点钱的。</p>
+<p>把外套脱下一半，躲进空出来的空间中，为了不滑倒只能紧绷着腿，以一种犹如被惩罚般的姿态朝家的方向跑。撑伞的路人们投来担忧的眼神，我费劲地转过头，对他们回以微笑。</p>
+<p>「————……」</p>
+<p>风呼呼地打着脸庞。在曾经的休息时间里，美香说，又三郎总在狂风中出没，如果台风天留在教室里就能够听见他可爱的笑声，因此被看作风的使者。</p>
+<p>尽管没有这样的场景，但风似乎把那份异常传递了过来。</p>
+<p>——透过院子围栏的空隙，传来了令人怀念的抚子色。</p>
+<p>我把头钻出来，习惯性地检查了一下信箱，确定空无一物后就打开了外门。一户建的院子因为暴雨显得格外萧瑟，一个庞大的「东西」蜷缩在门边，粉色和黑色糊成一片，毛发因为雨水沉沉地垂在手臂上。它像是睡着了。而我仔细地辨认后才看出那是一个**「男人」**，因为没有女人会有那么高大的身躯。</p>
+<p>一直淋雨会感冒的。我绕过男人，用钥匙打开大门，然后抓着他湿漉漉的肩膀，用更换饮水机水桶般的姿势拼命地向旁边提，却只有西装外套被皱巴巴地拎起。</p>
+<p>实在没办法，我只好小心翼翼地放平他的手脚，抱起一只手臂进行着人体拔河……不管怎么说，终于拖进了玄关。</p>
+<p>「……——明明是令人放心的好孩子，为什么……」</p>
+<p>——转身关上家门。喋喋不休的雨声、风声、说教声，一齐像又三郎的身影一样消失了。</p>
+<h2><span id="%E4%BF%9D%E6%B8%A9%E5%AE%A4">保温室</span></h2><p>我啪嗒一声打开灯，令人背痛地把他拖上玄关的阶梯。因为做到一半就累了，只好原地坐下喘会气。衣服冷冰冰地贴在身上，于是忍不住把四肢抱得更紧了一点。</p>
+<p>可能因为硌在台阶上，来路不明的男人软趴趴地把头扭向一边……看样子还活着。男人看着三十岁上下，身高估计有一米八。仔细看的话，他右侧的刘海很长，相应的右边眉毛比左边眉毛更稀疏一点，或许是为了这点缺陷才把头发留长的吧。先前吸引目光的则是浅粉色的领带，还不伦不类地别上了领带夹，配合着歪歪扭扭的红框眼镜和西装套装。看来他应该不是坏人，而是个奇怪的人。</p>
+<p>「啊……、」</p>
+<p>「……啊呀，抱歉。」</p>
+<p>他在眼皮底下发出了微弱的呻吟，我急忙起身，继续罔顾人伦地把他拖向沙发。自己的体格确实较小，就算是班长老师也体贴地不会让我去搬器材……现在想来同学们真的辛苦了啊。</p>
+<p>……</p>
+<p>过了大约十分钟，像是被猎人拖回小屋的熊那样，他安安稳稳地靠上了沙发，眼睛依旧紧紧地闭着。</p>
+<p>尽管如此也不觉得困扰，在这样的天气下或许发生什么都不奇怪吧。</p>
+<p>我把湿衣服扔进洗衣机，简单冲了个澡，然后对着客厅说着迟到的「我回来了」。就像应和般，传来了轻轻的呼吸声——不知为何，心情变得明朗起来了。</p>
+<p>「请醒一醒，没事吧？」</p>
+<p>感觉差不多到时间了，便操控着变得轻快的身体蹲到他的身边，轻轻拍打着男人湿冷的脸颊……光是这样感到有点可怜，于是用手帕仔仔细细地搽干了他脸的水珠。</p>
+<p>他的上半张脸像外套一样皱了起来，上下眼皮争斗了一番，最后终于睁开眼睛，用湿漉漉的迷茫眼神看着这里。</p>
+<p>「您昏倒在了我家门口呢。」</p>
+<p>「…………」</p>
+<p>「是怎么一回事？您是什么人？」</p>
+<p>「…………」</p>
+<p>虽然没有拷问的意思，但他有点害怕地瑟缩了一下。我感到奇怪地歪了歪头，放轻了声音。对大人用这种语调好像不大好，但面前一言不发的人就像刚破茧的飞蛾一样，潮湿，微微发抖着，让人忘记自己刚刚费了多大劲才把他搬运回来。</p>
+<p>「没关系哦，这里是我的家…可以告诉我发生了什么吗？」</p>
+<p>「…啊…………」</p>
+<p>男人张了张嘴，只吐出几个意义不明的音节。似乎对嘴里发出的声音感到疑惑，他本能性地摇了摇头，长长的刘海一晃一晃的。</p>
+<p>「…………」</p>
+<p>「…不能说话吗？」</p>
+<p>无法沟通。从来没有见过这样的人。因为感到有趣而稍微露出了笑容，他看着我的脸，像是模仿一样扯了扯嘴角。真是太可爱了。我不明情况地继续让笑容绽放在自己的脸上。</p>
+<p>一个成年人，在什么情况下会变成这样呢？</p>
+<p>一、天生智障。因为不觉得智力障碍会戴领带夹，监护人应该也不会放任他乱跑，所以排除。那么只剩下了另外两种可能，精神受创或者失忆。</p>
+<p>这样看来，或许应该送去医院。我摸索着他的衬衫和西装外套，没有明显外伤，也没找到任何能够证明身份的东西。</p>
+<p>既然如此，继续照顾他也没有什么问题吧？只是想看着大人宛如新生的有趣神态，只是想要空荡荡的家里多一个人，这样小小的愿望应该能被原谅吧？如果看到寻人的消息那就到时候再还给他们就好了，在那之前……</p>
+<p>这样想着，我高兴地靠上了他浸着雨水的身体。他不知所措地低下头，什么都没说，漆黑的眼睛什么都没有传达。</p>
+<p>「还记得自己叫什么吗？」</p>
+<p>「…………」</p>
+<p>「看样子是不记得了？得先取个名字呢～」</p>
+<p>似乎不明白<strong>名字</strong>为何物，他不安地抱着手臂。</p>
+<p>叫什么比较好呢？沉思的时候，眼前出现了那抹抚子色。很久很久以前，我也注视过这样的颜色。抚子色的海洋，那是一个温暖的、令人怀念的地方，会温柔地摸过自己的头顶，如潮涨潮落般轻轻晃动着，然后便不知不觉地陷入深眠。</p>
+<p>那个人叫什么名字来着？</p>
+<p><em>「…由美。」</em></p>
+<p>记忆深处，传来了低沉的呼唤声。我下意识地也脱口而出</p>
+<p>「……就叫<strong>由美</strong>吧？」</p>
+<p>「……」</p>
+<p>由美眨了眨眼睛，也不知道能不能理解。我是抱住了他粗粗的胳膊。</p>
+<p>「我的名字叫<strong>花</strong>」</p>
+<p>「…哈……」</p>
+<p>「从今往后当我的<strong>爸爸</strong>吧？」</p>
+<p>「……？」</p>
+<p>「请多指教哦」</p>
+<p>「………」</p>
+<p>自顾自地说完，他只是把目光移向了被我搂着的手臂。如果是小狗小猫的话，应该至少会汪汪喵喵地叫两声吧？即使是金鱼也会摆起尾巴游动。就像在对新发现的未知物种说着人类的语言，宇航员一般的欣喜涌上心头。</p>
+<p>如果没记错的话，母亲的那件<strong>抚子色和服</strong>放在楼上的储藏间，因为很久没有被穿过所以沾满了灰尘。我找到了它，小心地抖开，拍掉稀碎的尘埃和毛发，和由美身上的外套一起也放进洗衣机。加入温和的洗涤剂，机器开始嗡嗡作响。</p>
+<p>沙发上的由美又睡了过去，不知为何身体惹人怜爱地倒向一边，太阳穴别扭地磕在扶手上。我又费了点劲调整好他的睡姿。</p>
+<p>水渍洇进沙发的布料，因为没有合适的衣服所以没脱下他的衬衫和裤子，在和服晾干前可能要忍耐一会了。突然想起父亲似乎说过头发没吹干就睡觉的话会头痛之类的话，于是我又拿毛巾用力地揉搓他的头发……做完这些的时候，已经快到上床的时间了。</p>
+<p>就像父亲经常做的那样，我拉上客厅的窗帘，到储藏间找了条毯子给神情安静的由美盖上。如果没有交流过，看长相或许会认为他是一个伶俐的人吧。</p>
+<p>「晚安，<strong>爸爸</strong>」</p>
+<p>我轻轻地在额头上印上晚安吻，啪嗒一声关上灯，于是由美和客厅都陷入了深深的黑暗。而我回到房间，像很久以前期待家庭旅行那样，期待着明日的到来。</p>
+<h2><span id="%E4%BF%9D%E8%82%B2%E4%BB%93">保育仓</span></h2><p>今天是周五。</p>
+<p>如果是学生和员工的话，应该能明白金曜日的美好吧。不过此刻的雀跃并不是因为即将迎来周末，而是因为即将迎来和爸爸在一起的第一个周末。</p>
+<p>周五和工作日并没有什么不同——无聊并不会因为时间的不同而变质，大概就是这样一个道理。自己似乎比同龄人更早知晓“无聊”的难过，与其称之为早熟，更像是无法忍受“日常”的好动吧，放在任何一个孩子身上都会被父母责怪的。明明看了天气预报却不喜欢带伞，明明可以被好好照顾却选择一个人独居……也许都是出于某种微小的、守株待兔的渴望，或者说，勇气。</p>
+<p>所以我才会遇到从天而降的爸爸嘛。</p>
+<p><em>嘟噜噜噜噜噜噜噜～</em></p>
+<p>——托着腮如此神游时，奇怪的下课铃声响了起来。</p>
+<p>“比起音乐，座机的铃声更给人家的感觉，孩子们也会感到更亲近吧”，校长这样说着，把上下课铃声都换成了电话铃声。“什么家的感觉啊，害得我平时听到电话铃声都不舒服了！”美香总是这样跟我抱怨。校长是个特立独行的女人，虽然不想辜负她的一番好心，但也确实听多了会乏味啊。</p>
+<p>班主任还在孜孜不倦地交代作业，同学们躁动起来，拉拉链的声音像海浪一样此起彼伏。我慢吞吞地收拾好书包，对台上的班主任露出微笑。</p>
+<p>在“日常”中做那些“非日常”的事情总是让我很开心。</p>
+<p>和值日的同学们招手，去鞋柜换上学生皮鞋，然后对警卫室值班的保安打招呼，坐上电车，攥着钱包，前往与家相反的方向。我事前滥用班长的权力调查过…说是调查似乎太严肃了，总之，我正在前往一个被认识的人撞见的可能性最小的商业区。</p>
+<p>当然，这里的商铺也事先查过地图了。差不多过了二十分钟，我爬出狭窄的地下通道口，直直朝着右侧走去。午后烙铁色的秋日阳光照得招牌晃着反光，我不得不眯起眼睛来辨认上面的字……派通、罗森、山田……<strong>宠物店</strong>。看来终于找到目的地了。</p>
+<p>其实家旁边就有智子阿姨开的宠物店，硬要说的话离得近的宠物店多的是吧。智子阿姨平时很照顾我，说不定还会打个小折，不过要是被问“小花什么时候养了猫猫狗狗呀？”这样的话就遭了，撒了一个谎就要用很多个僵硬的说辞来装饰，刚被班主任训了不久的我自然知道这点，所以最好的解决办法就是缩小撒谎的可能性，换句话说就是不被认识的人看见我在买宠物用品就好了…….稍微观察了一下周遭的环境，似乎达到这个目的了。</p>
+<p>店内养的三花猫听见开门的铃声后便舔舔爪子跑开了，和素未谋面的老板娘问好后，我绕过笼子走向宠物用品的区域。用深色皮革和铁质环扣组成的环状物，宠物项圈，所要寻找的就是这个。想起由美黑发中垂下的红色，我稍微比划了一些大小，挑了一个合适的红色项圈。崭新的皮革色泽鲜艳，金属件的反光也很锐利，陷在猫狗柔软的毛中一定像摇晃的火焰一样显眼吧。对它今后的用途感到几分愧疚，我轻轻摩挲着皮面，让老板在吊牌刻上“<strong>YOMI</strong>“的字样。</p>
+<p>爸爸作为重要的家庭成员，住在家里也快一周了。我想要送他一份纪念礼物。</p>
+<p>美香说她在狗狗周岁时给它买了个项圈，这样就算走丢了也容易被找回来。“当然还是不要走丢比较好！但是小菊它老是乱跑，之前就跑丢过一次，还是邻居帮忙才找回来..真羡慕它的精力啊~”她那时撇着嘴，一边拆便当一边给我看小菊的照片。那是一只可爱的田园犬，毛色金灿灿的，或许美香的妈妈就是因为这点才给它取这样的名字吧。照片中的小菊吐着舌头，美香抱着它，对着镜头，在阳光散漫的公园里天真无邪地笑着。</p>
+<p>我想起我们初次见面的时候，那时没有项圈，哪里都找不到身份证明，爸爸的家人、友人、同事，是否也会像那时的美香一样四处找寻着他的下落呢？父亲和母亲也是因为没有项圈才会走丢的吧。虽然不会让爸爸乱跑，但项圈作为礼物再合适不过了。</p>
+<p>店里的分针在猫的呼噜声中走过半圈，蚀刻机器的嗡鸣声渐渐变小，老板娘走出房间，将包好的项圈递给正在把手伸进笼子的缝隙的我。路灯在渐暗的天色下亮了起来。手上提着的袋子很轻，虽然花了点功夫但毕竟只是一个再普通不过的装饰品，但心里的雀跃比以往任何时候都要鲜明。刚上初中的时候，父亲在生日时送了我一只小鸟，活生生的，羽毛颜色和小菊一样闪亮。那时的心情或许就和此时一样吧。</p>
+<p>那只小鸟的叫声很小很细，每天回到房间都会在鸟笼里扇动翅膀，用它那嘤咛般的话语欢迎我，一开始手指常常被啄，过了一星期后就已经可以轻轻地去抚摸它乖顺的身子了。回想起来，它的羽毛软软的，体温也很高，放出笼子时喜欢飞到我的头上，把整理好的头发弄得乱七八糟…….真是太可爱了，当时的我也是这样想的。每天放学回家，添水和饲料，然后让它跳到手臂上，用手指轻轻刮这它头顶柔软的羽毛…</p>
+<p>这样的时光总是很开心。</p>
+<p>但我很快厌倦了这样的日常。它那细小的声音有刺耳的时候吗？它扑腾的翅膀挣扎时会是什么样的？它的喙会锋利到什么地步？它的柔软有多柔软？可爱的它会有什么更多的可爱的反应吗？这些事我全都想知道。被这样纯粹的好奇占领后，这只小鸟再也没有出现在我的身边。</p>
+<p>如果再收敛一点就好了。那样的事情发生后，父亲和母亲骂了我一顿，也没有再买过这样的礼物。近三年过去，我也学会了很多，比如这种事是不应该做的，老师称它叫做“不道德”、“不人道”，又比如一个正常的好学生、好人类应该怎么做…….我总是学得很好，不然就不会当上班长了。但时常也会冒出这样的感觉：这样的正常真无聊，太无聊了。还好遇到了爸爸啊。被排除在社会之外的、不再被赋予身份、不知道是不是人类的他想必不适用于那些规矩吧？所以怎么样都行，就算戴上宠物才会戴的项圈他也会一直陪着我吧。作为<strong>家人</strong>。</p>
+<p>到家时已经过了吃晚饭的时间，窗户透出的暖黄色灯光似乎在催促着，我抱歉地锁上院子的外门，跑进玄关。由美抱着膝盖，坐在地上揪着沙发垫的线头，抚子色的和服与灰绿色的沙发和木地板组成了一幅奇异的画面。听见门的开关声，他抬起头看向这边，露出了一个单纯的笑容。他似乎已经像那只小鸟一样习惯这样的生活了。</p>
+<p>“我回来了~“</p>
+<p>换上拖鞋，我跪坐到了他的旁边，迫不及待地把礼物拿了出来。这应该是他作为由美第一次见到这样的东西吧，漆黑的眼眸映出了鲜红的倒影。</p>
+<p>“爸爸来家里也快一周了，这是纪念礼物呢。“</p>
+<p>他的目光随着我的动作一起移动着，直到我把这个带状物圈在在了他的脖子上。仔细调整了一下长短和方向，我满意地退后，看着他有点疑惑地触碰着陌生的饰品。</p>
+<p>“不可以摘下来哦，爸爸。“</p>
+<p>“<strong>YOMI</strong>”的金属牌子垂了下来，覆盖了他曾系过领带的脖颈，一晃一晃的，在客厅的灯光下反射出刺眼的暖光。</p>
+</body></html>
+	</article>
+
+	 
+    <div class="kira-post-copyright">
+        <strong>Author：</strong>John Doe<br>
+        <strong>Link：</strong><a href="http://example.com/2026/03/05/%E7%94%9F%E3%81%AA%E9%BB%84%E6%B3%89/" title="http:&#x2F;&#x2F;example.com&#x2F;2026&#x2F;03&#x2F;05&#x2F;生な黄泉&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;example.com&#x2F;2026&#x2F;03&#x2F;05&#x2F;生な黄泉&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+  
+	<div class="kira-post-nav">
+		<nav class="post-nav">
+			
+		</nav>
+	</div>
+	
+	<div class="kira-post-meta kira-rainbow">
+		
+		
+			<a class="kirafont icon-tag-fill -none-link" href="/tags/%E6%96%87%E7%AB%A0/" rel="tag">文章</a>
+		
+	</div>
+	
+	<div class="kira-post-footer">
+		
+
+		
+	</div>
+	
+</div>
+
+				</div>
+			</div>
+			<div class="kira-right-column">
+	<a onclick="document.querySelector('#kira-top-header').scrollIntoView({behavior: 'smooth'});" class="kira-backtotop" aria-label="回到顶部" title="回到顶部">
+		<button class="mdui-fab mdui-ripple">
+			<i class="kirafont icon-caret-up"></i>
+		</button>
+	</a>
+</div>
+
+		</div>
+	</body>
+</html>
